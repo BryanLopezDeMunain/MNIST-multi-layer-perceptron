@@ -67,7 +67,7 @@ for epoch in range(num_epochs):
         print(MSE)
         print(time.time() - start_time, 'seconds')
 
-num = 184
+num = 185
 
 print('Should be', y_test[num])
 print('Is', torch.argmax(vanilla_model(x_test[num])))
